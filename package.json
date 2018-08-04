@@ -4,6 +4,9 @@
   "description": "Testing deployment flow.",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/davidprae/next-js-test#readme",
   "dependencies": {
-    "react": "^16.4.2"
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
